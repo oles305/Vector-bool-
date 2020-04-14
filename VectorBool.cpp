@@ -32,6 +32,10 @@ public:
 			*bits |= mask;
 		}		
 	}
+	~vectorbool()
+	{
+		delete bits;
+	}
 
 	size_t  getsize() const { return size; }
 	unsigned long getbits() const { return *bits; }
