@@ -5,8 +5,6 @@
 #include<bitset>
 
 using namespace std;
-
-
 template <typename T> class vectorbool;
 
 template<>
